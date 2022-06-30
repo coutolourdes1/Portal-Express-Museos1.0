@@ -1,0 +1,77 @@
+{% set titulo = content.field_titulo_hero|field_value %}
+{% set medias = content.field_imagenes|field_value %}
+{% set descripcion = content.field_descripcion|field_value %}
+
+<section class="hero hero-generic">
+
+  <div class="owl-carousel owl-carousel-generic">
+
+    <div class="hero-item"> 
+      <img src="/{{_context["directory"]}}/img/heros/hero-generic-1440.jpg" alt="IMG Description" class="img-fluid">
+      <div class="page-container hero-item__content">
+        <div class="hero-item__contentInner">
+          <h1 class="hero-item__title"> Lorem ipsum dolor sit amet. </h1>
+          <p class="hero-item__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="hero-item__actions"> 
+            <a href="#" class="btn-xlarge btn-primary btn-icon"> 
+              Ver más
+              <span class="material-icons-outlined"> arrow_forward </span>
+            </a>
+            <a href="#" class="btn-xlarge btn-primary-outline btn-icon"> 
+              Ver más
+              <span class="material-icons-outlined"> arrow_forward </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Botón CTA Primaryio para mobile -->
+      <a href="#" class="btn-hero-mobile btn-xlarge btn-primary btn-icon"> 
+        Ver más
+        <span class="material-icons-outlined"> arrow_forward </span>
+      </a>
+    </div>
+
+    <div class="hero-item"> 
+      <img src="/{{_context["directory"]}}/img/heros/hero-generic-1280.jpg" alt="IMG Description" class="img-fluid">
+      <div class="page-container hero-item__content">
+        <div class="hero-item__contentInner">
+          <h1 class="hero-item__title"> Lorem ipsum dolor sit amet. </h1>
+          <p class="hero-item__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="hero-item__actions"> 
+            <a href="#" class="btn-xlarge btn-primary btn-icon"> 
+              Ver más
+              <span class="material-icons-outlined"> arrow_forward </span>
+            </a>
+            <a href="#" class="btn-xlarge btn-primary-outline btn-icon">  
+              Ver más 
+              <span class="material-icons-outlined"> arrow_forward </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Botón CTA Primaryio para mobile -->
+      <a href="#" class="btn-hero-mobile btn-xlarge btn-primary btn-icon"> 
+        Ver más
+        <span class="material-icons-outlined"> arrow_forward </span>
+      </a>
+    </div>
+  </div>
+
+  <!-- float social media -->
+  <nav class="component-social-media component-social-media__vertical" aria-label="component social media">
+    <a href="https://www.youtube.com/user/MarketingBSE" class="circle-social-link">
+      <span>Youtube</span>
+    </a>
+    <a href="https://www.facebook.com/BSEuruguay" class="circle-social-link">
+      <span>Facebook</span>
+    </a>
+    <a href="https://twitter.com/bseuruguay" class="circle-social-link">
+      <span>Twitter</span>
+    </a>
+    <a href="https://www.instagram.com/bseuruguay/" class="circle-social-link">
+      <span>Instagram</span>
+    </a>
+  </nav>
+  <!-- Fin float social media -->
+
+</section>

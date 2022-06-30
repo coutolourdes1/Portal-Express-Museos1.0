@@ -1,0 +1,10 @@
+name: 'bloques personalizados'
+type: module
+description: 'Contenido de bloques personalizados'
+core_version_requirement: '^8.9 || ^9'
+package: 'name'
+
+default_content:
+ block_content:
+  - 3a32a651-e89a-4982-8232-013e780a9e45
+  - 46e176fc-4401-4320-bce6-bf8c82674502

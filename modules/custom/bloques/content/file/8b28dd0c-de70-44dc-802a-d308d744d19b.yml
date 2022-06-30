@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8b28dd0c-de70-44dc-802a-d308d744d19b
+  default_langcode: es
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: not_1.jpg
+  uri:
+    -
+      value: 'public://2022-06/not_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 12227
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655228999

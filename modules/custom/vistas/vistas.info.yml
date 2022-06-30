@@ -1,0 +1,6 @@
+name: 'modularizacion de vistas'
+type: module
+description: 'Contenido de vistas'
+core_version_requirement: '^8.9 || ^9'
+package: 'name'
+

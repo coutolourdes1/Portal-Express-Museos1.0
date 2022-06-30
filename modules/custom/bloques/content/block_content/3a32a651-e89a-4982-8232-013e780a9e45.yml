@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 3a32a651-e89a-4982-8232-013e780a9e45
+  bundle: iframe
+  default_langcode: es
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Iframe mapa de prueba'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_iframe_type:
+    -
+      value: map
+  field_link:
+    -
+      uri: 'https://www.google.com/maps/place/Mercado+Agr%C3%ADcola+de+Montevideo'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: Mapa

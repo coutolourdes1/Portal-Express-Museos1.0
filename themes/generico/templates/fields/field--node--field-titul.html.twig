@@ -1,0 +1,5 @@
+{% if label_hidden %}
+    {% for item in items %}
+      <div{{ attributes.addClass(classes, 'text__title') }}>{{ item.content }}</div>
+    {% endfor %}
+{% endif %}

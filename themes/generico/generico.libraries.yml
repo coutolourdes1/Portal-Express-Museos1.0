@@ -1,0 +1,29 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      design/styles.min.css: {}
+      css/style.css: { }
+      //fonts.googleapis.com/css2?family=Roboto&display=swap: { }
+      //fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap: { }
+  
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
+    - generico/material_icons
+    - generico/owl_carousel
+
+owl_carousel:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js: {}
+
+material_icons:
+  css:
+    component:
+      //fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp: {  }
+
+
+time_picker:
+  js:
+    js/time_picker.js: { }

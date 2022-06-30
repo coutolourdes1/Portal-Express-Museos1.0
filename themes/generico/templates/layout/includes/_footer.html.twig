@@ -1,0 +1,96 @@
+{% set menu_1 = drupal_menu('footer-col-1') %}
+{% set menu_2 = drupal_menu('footer-col-2') %}
+{% set menu_3 = drupal_menu('footer-col-3') %}
+
+<footer class="component-footer-generic">
+
+	<div class="footer-header">
+		<div class="page-container">
+
+			<div class="footer-header__content">
+				<img src="profiles/contrib/isa/themes/generico/img/logo-isa-white.svg" alt="Logo ISA" class="img-fluid">
+				<nav class="component-social-media component-social-media__horizontal">
+					{% if youtube %}
+						<a href={{ youtube }} class="circle-social-link" alt="YouTube">
+						<span class="pe-icon-youtube">YouTube</span>
+						</a>
+					{% endif %}
+					{% if facebook %}
+						<a href={{ facebook }} class="circle-social-link" alt="Facebook">
+						<span>Facebook</span>
+						</a>
+					{% endif %}
+					{% if twitter %}
+						<a href={{ twitter }} class="circle-social-link" alt="Twitter">
+						<span>Twitter</span>
+						</a>
+					{% endif %}
+					{% if instagram %}
+						<a href={{ instagram }} class="circle-social-link" alt="Instagram">
+						<span>Instagram</span>
+						</a>
+					{% endif %}
+					{% if linkedin %}
+						<a href={{ linkedin }} class="circle-social-link" alt="LinkedIn">
+						<span>LinkedIn</span>
+						</a>
+					{% endif %}
+				</nav>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer-body">
+		<div class="page-container">
+
+			<div class="footer-body__content">
+
+				<nav class="footer-navlist">
+					<span class="nav-title">
+						Lorem ipsum
+						<span class="material-icons-outlined">
+							expand_more
+						</span>
+					</span>
+					<div class="collapse-mobile-content">
+						{% for item in menu_1['#items'] %}
+							<a href="#" class="footer-navlist__link">{{ item['title'] }}</a>
+						{% endfor %}
+					</div>
+				</nav>
+
+				<nav class="footer-navlist">
+					<span class="nav-title">
+						Lorem ipsum
+						<span class="material-icons-outlined">
+							expand_more
+						</span>
+					</span>
+					<div class="collapse-mobile-content">
+						{% for item in menu_2['#items'] %}
+							<a href="#" class="footer-navlist__link">{{ item['title'] }}</a>
+						{% endfor %}
+					</div>
+				</nav>
+
+				<nav class="footer-navlist">
+					{% for item in menu_3['#items'] %}
+						<a href="#" class="footer-navlist__link">{{ item['title'] }}</a>
+					{% endfor %}
+				</nav>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="page-container">
+			<p class="copy-text">
+				Todos los derechos reservados © 2022 ISA Ltda.
+			</p>
+		</div>
+	</div>
+
+</footer>

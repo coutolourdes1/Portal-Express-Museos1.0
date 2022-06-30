@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c1fe96a1-1154-4375-a140-eab54c93dc79
+  default_langcode: es
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gregre_2.jpg
+  uri:
+    -
+      value: 'public://2022-06/gregre_2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 238316
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655228982

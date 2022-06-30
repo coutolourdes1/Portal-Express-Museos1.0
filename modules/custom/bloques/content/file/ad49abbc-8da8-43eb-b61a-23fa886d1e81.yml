@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ad49abbc-8da8-43eb-b61a-23fa886d1e81
+  default_langcode: es
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: f3wqefdwe_3.jpg
+  uri:
+    -
+      value: 'public://2022-06/f3wqefdwe_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 443335
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655228990

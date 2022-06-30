@@ -1,0 +1,21 @@
+{% set title = content.field_title|field_value %}
+{% set subtitle = content.field_subtitle|field_value %}
+{% set medias = content.field_medias %}
+
+
+<section class="component-gallery">
+    <div class="page-container">
+      {{ title_prefix }}
+      {% if label %}
+        <h2 class="section__title"> {{title}} </h2> 
+      {% endif %}
+      {{ title_suffix }}
+      {{ subtitle }}
+      <div{{ attributes.addClass('section__galeria') }}>
+        {{ medias }}
+        <a href="#" class="btn-large btn-primary-outline btn-icon"> 
+          lorem ipsum 
+        </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+<{{ list.type }}{{ list.attributes }}>
+
+<div class="owl-carousel owl-carousel-novedades">
+{% for row in rows %}
+    <li{{ row.attributes.addClass('novedad__item') }}>
+        {{- row.content -}}
+        <div class="item__link">ver más</div>
+    </li>
+{% endfor %}
+</div>
+
+</{{ list.type }}>
+
+ 

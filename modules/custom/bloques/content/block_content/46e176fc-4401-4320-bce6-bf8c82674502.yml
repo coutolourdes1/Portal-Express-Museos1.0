@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 46e176fc-4401-4320-bce6-bf8c82674502
+  bundle: gallery
+  default_langcode: es
+  depends:
+    c1fe96a1-1154-4375-a140-eab54c93dc79: file
+    ad49abbc-8da8-43eb-b61a-23fa886d1e81: file
+    8b28dd0c-de70-44dc-802a-d308d744d19b: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Galeria de preubas'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_medias:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 46736204-ee7f-4a69-9bb1-b9409106c821
+          bundle: images
+          default_langcode: es
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1655228978
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: '-'
+          field_image:
+            -
+              entity: c1fe96a1-1154-4375-a140-eab54c93dc79
+              alt: ''
+              title: ''
+              width: 1366
+              height: 768
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 753f80f9-b3c9-449c-9402-cc78b7d47a18
+          bundle: images
+          default_langcode: es
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1655228985
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: '-'
+          field_image:
+            -
+              entity: ad49abbc-8da8-43eb-b61a-23fa886d1e81
+              alt: ''
+              title: ''
+              width: 1024
+              height: 819
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 03420fd9-7d0f-4c6e-9b8d-a3f0eccb77d5
+          bundle: images
+          default_langcode: es
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1655228993
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: '-'
+          field_image:
+            -
+              entity: 8b28dd0c-de70-44dc-802a-d308d744d19b
+              alt: ''
+              title: ''
+              width: 474
+              height: 237
